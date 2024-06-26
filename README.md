@@ -28,6 +28,7 @@ To run this application, you need Python installed on your system. Additionally,
 3. Click the "Decrypt" button. The decrypted message will be displayed in the "Decrypted Message" field.
    
 **Exiting the Application**
+
 Enter 3 in the input form to exit the application.
 
 **Code Overview**
@@ -42,5 +43,6 @@ This file contains the logic for generating RSA keys. It includes functions for 
 This file contains the logic for RSA encryption and decryption. It includes functions for encrypting and decrypting messages using the RSA algorithm.
 
 **Contributing**
+
 Contributions are welcome! If you have any suggestions or improvements, please feel free to open an issue or create a pull request.
 
