@@ -11,21 +11,27 @@ The repository contains the following files:
    
 **Requirements**
 To run this application, you need Python installed on your system. Additionally, you need the Tkinter library for the GUI. Tkinter is included with Python standard library, so no extra installation is required for it.
+
 **Generating RSA Keys**
 1. When the application starts, you will see an input form.
 2. Enter 1 to generate RSA keys.
 3. A message box will appear indicating that the keys have been generated. The keys will be saved in the output.txt file.
+   
 **Encrypting a Message**
 1. Enter 2 in the input form to open the RSA encryption window.
 2. Enter the encryption key, N, and the message you want to encrypt.
 3. Click the "Encrypt" button. The encrypted message will be displayed in the "Encrypted Message" field.
+   
 **Decrypting a Message**
 1. Enter 2 in the input form to open the RSA decryption window.
 2. Enter the encryption key, N, the decryption key, and the message you want to decrypt.
 3. Click the "Decrypt" button. The decrypted message will be displayed in the "Decrypted Message" field.
+   
 **Exiting the Application**
 Enter 3 in the input form to exit the application.
+
 **Code Overview**
+
 `main.py`
 This file contains the main GUI code using Tkinter. It handles the user input for selecting encryption, decryption, and key generation. It also contains the logic for opening new windows for encryption and decryption, as well as calling the appropriate functions from encryption.py.
 
